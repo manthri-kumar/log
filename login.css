@@ -1,0 +1,100 @@
+body {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+}
+.form-card {
+  border-radius: 50px;
+}
+.card {
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  background-color: transparent;
+  width: 300px;
+  text-align: center;
+  background-position: ce;
+  margin-bottom: 20px;
+}
+.btn-box {
+  width: 220px;
+  margin: 35px auto;
+  position: relative;
+  box-shadow: 0 0 20px 9px #ff61241f;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.toggle-btn {
+  padding: 10px 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+  padding-left: 5rem;
+  z-index: 1;
+}
+.btn {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 217px;
+  height: 100%;
+  background: linear-gradient(to right, #ff8c00, #000);
+  border-radius: 30px;
+  transition: 0.5s;
+  z-index: 0;
+}
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.input-container {
+  position: relative;
+  margin-top: 15px;
+}
+input {
+  padding: 10px 10px 10px 40px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 50px;
+  border: 1px solid #ccc;
+}
+.icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #000;
+}
+.signin {
+  margin-top: 20px;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+}
+.btn:hover {
+  color: #ef5c00;
+}
+.eye-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+#signin {
+  display: none;
+}
